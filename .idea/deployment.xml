@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="liyj@10.68.26.102:5022">
+    <serverData>
+      <paths name="liyj@10.68.26.102:5022">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/userdata/liyj/programs/CenterNet" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>

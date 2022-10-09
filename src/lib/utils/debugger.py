@@ -213,7 +213,8 @@ class Debugger(object):
                    3, (int(c[0]), int(c[1]), int(c[2])), -1)
 
   def show_all_imgs(self, pause=False, time=0):
-    if not self.ipynb:
+    # not show with opencv
+    if not self.ipynb and 0:
       for i, v in self.imgs.items():
         cv2.imshow('{}'.format(i), v)
       if cv2.waitKey(0 if pause else 1) == 27:
